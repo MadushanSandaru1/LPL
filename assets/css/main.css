@@ -420,6 +420,14 @@ body{
 	border:1px solid #FFF;
 	border-radius: 7px;
 	color: #FFF;
+
+	transition: transform 0.3s;
+}
+
+
+.feedback-inputs:hover{
+	transform: scale(1.05);
+	transition: transform 0.3s;
 }
 
 .feedback-btn{
@@ -429,12 +437,24 @@ body{
 	border:1px solid #FFF;
 	border-radius: 7px;
 	color: #FFF;
+
+	transition: transform 0.3s;
+}
+
+
+.feedback-btn:hover{
+	transform: scale(1.05);
+	transition: transform 0.3s;
+}
+
+.feedback-btn:active{
+	transform: scale(0.90);
+	transition: transform 0.3s;
 }
 
 ::placeholder{
 	color: #FFF;
 }
-
 
 
 .social-contacts ul{
@@ -450,12 +470,6 @@ body{
 	color:#FFF;
 }
 
-/*
-.about-container-tbl .td_border{
-	border-right: 1px solid #FFF;
-}
-
-*/
 /* about end*/
 
 
