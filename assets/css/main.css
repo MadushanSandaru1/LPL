@@ -81,7 +81,7 @@ body{
 	background-image: url("../image/banner.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	//background-attachment: fixed;
+	background-attachment: fixed;
 	z-index: -1;
 
 	 width: 100%;
@@ -108,6 +108,17 @@ body{
 	text-align: center;
 }
 
+.upcoming table{
+	margin-top: 7px;
+	width: 280px;
+	color: #FFF;
+}
+
+.upcoming table .vs{
+	width: 50px;
+
+	font-size: 26px;
+}
 /*body top end */
 
 
@@ -117,9 +128,8 @@ body{
 	color: #FFF;
 	font-size: 24px;
 	font-family: 'Scope One';
-	padding-top: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 30PX 30PX 30PX 30PX ; 
+	text-align: justify;
 }
 
 /*intro end*/
@@ -129,28 +139,22 @@ body{
 .footer{
 	background: #28293D;
 	color: #FFF;
-	//position: fixed;
-	left: 0;
-	bottom: 0;
 	width: 100%;
 }
 
-.footer .social-link{
-	text-align: center;
+
+.footer .social-link ul{     
+	list-style-type: none;     
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;     
+	padding-left: 0px;     
+	padding-top: 15px;
 
-
-}
-
-.footer .social-link ul{
-	list-style-type: none;
-	display: flex;
-	padding-left: 0;
 }
 
 .footer .social-link ul li{
-	padding: 0 0.5rem 0 0.5rem;
+	padding: 0rem 0.5rem 0rem 0.5rem;
+
 }
 
 .footer .social-link ul a{
@@ -161,7 +165,7 @@ body{
 .footer .copy{
 	text-align: center;
 	font-family: Ubuntu;
-
+	padding-bottom: 5px;
 }
 
-/* Navigation bar end */
+/* footer bar end */
