@@ -261,16 +261,82 @@ body{
 /* about start */
 .about-container-tbl{
 	margin-top: 120px;
+	overflow: visible;
+	color: #FFF;
 }
 
-.about-container-tbl .about-title{
+.about-container-tbl{
+	border-right: 1px solid #FFF;
+	padding-right: 10px;
+}
+
+.about-container-tbl .contacts-title{
+	color: #FFF;
+	font-size: 48px;
+	font-family: 'Audiowide';
+}
+
+.body-middle{
+	display: flex;
+	justify-content: space-between;
+}
+
+.middle-1 .sponsor-body{
+	margin-top: 20px;
+}
+
+.middle-1 .sponsor-body img{
+	padding: 20px;
+}
+
+
+.middle-1, .middle-2{
+	margin:60px;
+}
+.body-middle .feedback-title, .body-middle .sponsor-title{
 	color: #FFF;
 	font-size: 26px;
 	font-family: 'Audiowide';
-	padding-right: 20px;
-	padding-left: 20px;
 }
 
+.feedback-inputs{
+	width: 260px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background:rgba(255,255,255,0.1);
+	border:1px solid #FFF;
+	border-radius: 7px;
+	color: #FFF;
+}
+
+.feedback-btn{
+	height: 32px;
+	width:100px;
+	background:rgba(39, 71, 186,0.5);
+	border:1px solid #FFF;
+	border-radius: 7px;
+	color: #FFF;
+}
+
+::placeholder{
+	color: #FFF;
+}
+
+
+
+.social-contacts ul{
+	font-size: 24px;
+	display: flex;
+	justify-content: space-around;
+	width:150px;
+	list-style: none;
+}
+
+.social-contacts li a{
+	cursor: pointer;
+	color:#FFF;
+}
 
 /*
 .about-container-tbl .td_border{
