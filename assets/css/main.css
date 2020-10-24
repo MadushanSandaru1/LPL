@@ -3,7 +3,14 @@
 
 /* Navigation bar start */
 
+.navigation{
+	display: flex;
+	justify-content: space-between;
+}
 
+.nav-logo img{
+	
+}
 
 
 /* Navigation bar end */
