@@ -7,7 +7,8 @@ body{
 /* Navigation bar start */
 
 .navigation{
-	margin: -10px -10px 0px -10px;
+	//margin: -10px -7px 0px -7px;
+	margin-top: -10px;
 	display: flex;
 	justify-content: space-between;
 	background: rgba(39, 71, 186,0.5);
@@ -83,11 +84,11 @@ body{
 	//background-attachment: fixed;
 	z-index: -1;
 
-	 width: 100vw;
+	 width: 100%;
 	 height: 64vh;
 	 position: relative;
 	 margin-top: -75px;
-	 margin-left: -5px;
+	 //margin-left: -5px;
 	 
 }
 
@@ -95,13 +96,25 @@ body{
 /*body top end */
 
 
+/*intro start*/
+	
+.intro p{
+	color: #FFF;
+	font-size: 24px;
+	font-family: 'Scope One';
+	//padding-top: 30px;
+	//padding-left: 30px;
+	//padding-right: 30px;
+}
+
+/*intro end*/
 
 /* footer bar end */
 
 .footer{
 	background: #28293D;
 	color: #FFF;
-	position: fixed;
+	//position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
