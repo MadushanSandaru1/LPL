@@ -101,6 +101,11 @@ body{
 	color: #FFF;
 	font-size: 28px;
 	font-family: 'Audiowide';
+	border: 1px solid #F8ED17;
+	border-radius: 15px;
+	width: 260px;
+	padding: 7px;
+	text-align: center;
 }
 
 /*body top end */
