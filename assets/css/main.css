@@ -101,6 +101,37 @@ body{
 	font-family: 'Audiowide';
 }
 
+.upcoming{
+	margin-left: 280px;
+	opacity: 0;
+
+	animation-name: toLeft;
+	animation-delay: 0.5s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+.live{
+	margin-right: 280px;
+	opacity: 0;
+
+	animation-name: toRight;
+	animation-delay: 0.5s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes toLeft {
+  from {margin-left: 280px; opacity: 0;}
+  to {margin-left: 50px; opacity: 1;}
+}
+@keyframes toRight {
+  from {margin-right: 280px; opacity: 0;}
+  to {margin-right: 50px; opacity: 1;}
+}
+
+
 .upcoming  .title div, .live  .title div{
 	color: #FFF;
 	font-size: 28px;
