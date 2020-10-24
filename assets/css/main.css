@@ -29,12 +29,12 @@ body{
 	justify-content: space-around;
 	list-style-type: none;
 	margin: 26px 0px 0px 0px;
-
 }
 
 .nav-body ul a{
 	color: #F8ED17;
 	text-decoration: blink;
+	font-family: 'Audiowide';
 	font-size: 26px;
 	border: 1px solid rgba(39, 71, 186,0);
 	border-radius: 18px;
