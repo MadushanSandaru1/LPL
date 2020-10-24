@@ -46,11 +46,6 @@ body{
 	
 }
 
-<<<<<<< Updated upstream
-
-/* Navigation bar end */
-=======
-<<<<<<< HEAD
 /* Navigation bar end */
 
 /* footer bar end */
@@ -66,20 +61,30 @@ body{
 
 .footer .social-link{
 	text-align: center;
+	display: flex;
+	justify-content: space-around;
+
+
 }
 
 .footer .social-link ul{
-	display: flex;
 	list-style-type: none;
-	justify-content: space-around;
+	display: flex;
+	padding-left: 0;
+}
+
+.footer .social-link ul li{
+	padding: 0 0.5rem 0 0.5rem;
 }
 
 .footer .social-link ul a{
 	color: #FFFFFF;
 	text-decoration: blink;
 }
-=======
+
+.footer .copy{
+	text-align: center;
+
+}
 
 /* Navigation bar end */
->>>>>>> 623f4d1a542e7ac59ced8f0b02aa9c89657a32c9
->>>>>>> Stashed changes
