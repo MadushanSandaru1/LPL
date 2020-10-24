@@ -88,7 +88,6 @@ body{
 	 height: 64vh;
 	 position: relative;
 	 margin-top: -75px;
-	 //margin-left: -5px;
 
 	 display: flex;
 	 justify-content: space-around;
@@ -139,8 +138,6 @@ body{
 	margin-top: 20px;
 	font-family: 'Scope One';
 	color: #F8ED17;
-<<<<<<< Updated upstream
-=======
 }
 
 .heading-btn {
@@ -161,7 +158,6 @@ body{
 	color: #F8ED17;
 	background: none;
 	border: 1px solid #F8ED17;
->>>>>>> Stashed changes
 }
 
 /*body top end */
