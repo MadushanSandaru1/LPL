@@ -12,10 +12,11 @@ body{
 	justify-content: space-between;
 	background: rgba(39, 71, 186,0.5);
 	color: #FFF;
+	flex-wrap: wrap;
 }
 
 .nav-logo img{
-	margin: 0px 0px 0px 10px;
+	margin: 2px 2px 2px 12px;
 }
 
 .nav-body {
@@ -26,7 +27,8 @@ body{
 	display: flex;
 	justify-content: space-around;
 	list-style-type: none;
-	margin: 24px 0px 0px 0px;
+	margin: 26px 0px 0px 0px;
+
 }
 
 .nav-body ul a{
