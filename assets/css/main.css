@@ -354,6 +354,17 @@ body{
 	padding: 0.5rem;
 }
 
+.scroll-bar-y {
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 800px) {
+	.content {
+		padding: 1rem 2rem 1rem 2rem;
+	}
+}
+
 /* content start */
 
 
