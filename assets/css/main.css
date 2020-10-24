@@ -61,16 +61,13 @@ body{
 	transition: transform 0.3s;
 }
 
-
 /*Active link*/
-
 .nav-body .active a{
 	color: #FFF;
 	border: 1px solid #F8ED17;
 }
 
 /* Navigation bar end */
-
 
 
 
@@ -97,8 +94,18 @@ body{
 
 .body-top .heading{
 	color: #FFF;
-	font-size: 48px;
+	font-size: 0px;
 	font-family: 'Audiowide';
+
+	animation-name: headingAnim;
+	animation-delay: 0.2s;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes headingAnim {
+	from {font-size: 0px;}
+	to {font-size: 48px;}
 }
 
 .upcoming{
@@ -121,16 +128,15 @@ body{
 	animation-fill-mode: forwards;
 }
 
-
 @keyframes toLeft {
   from {margin-left: 280px; opacity: 0;}
   to {margin-left: 50px; opacity: 1;}
 }
+
 @keyframes toRight {
   from {margin-right: 280px; opacity: 0;}
   to {margin-right: 50px; opacity: 1;}
 }
-
 
 .upcoming  .title div, .live  .title div{
 	color: #FFF;
@@ -193,7 +199,8 @@ body{
 /*body top end */
 
 
-/*intro start*/
+
+/* intro start */
 	
 .intro p{
 	color: #FFF;
@@ -203,7 +210,7 @@ body{
 	text-align: justify;
 }
 
-/*intro end*/
+/* intro end */
 
 /* content start */
 
@@ -298,7 +305,7 @@ body{
 	border-top: 3px solid #FFFFFF;
 }
 
-.div-active:active, .div-hover:hover {
+.div-active, .div-hover:hover {
 	background: #242436;
 	cursor: pointer;
 }
@@ -316,7 +323,7 @@ body{
 	margin-top: -3rem;
 	position: relative;
 	z-index: -1;
-	/*display: none;*/
+	display: none;
 }
 
 .collapse-content table {
@@ -370,11 +377,21 @@ body{
 
 /* about start */
 
-
 .about-container-tbl{
-	margin-top: 120px;
+	margin-top: 0px;
+	opacity: 0;
 	overflow: visible;
 	color: #FFF;
+
+	animation-name: toBottom;
+	animation-delay: 0.2s;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes toBottom {
+	from {margin-top: 0px; opacity: 0;}
+	to {margin-top: 120px; opacity: 1;}
 }
 
 .about-container-tbl{
@@ -480,7 +497,6 @@ body{
 	color: #FFF;
 	width: 100%;
 }
-
 
 .footer .social-link ul{     
 	list-style-type: none;     
