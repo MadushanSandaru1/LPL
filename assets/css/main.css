@@ -193,6 +193,12 @@ body{
 	font-size: 1rem;
 	padding: 0.3rem 1rem 0.3rem 0.3rem;
 	color: #F8ED17;
+	margin-right: 3rem;
+}
+
+.content .h2 {
+	color: #FFFFFF;
+	text-align: center;
 }
 
 .won-div-left {
@@ -211,6 +217,7 @@ body{
 	background: #28293D;
 	border-radius: 2rem;
 	margin-top: 2rem;
+	box-shadow: 0 0.2rem 0.5rem 0 #1C1C28;
 }
 
 .item-div h1 {
@@ -291,6 +298,29 @@ body{
 
 .collapse-content table tr td {
 	padding-top: 1rem;
+}
+
+.points-div {
+	background: #28293D;
+	border-radius: 2rem;
+	margin-top: 2rem;
+	padding: 2rem;
+}
+
+.points-div table {
+	width: 100%;
+	border-color: darkgray;
+	border-collapse: collapse;
+}
+
+.points-div table th {
+	color: #F8ED17;
+	padding: 0.5rem;
+}
+
+.points-div table td {
+	color: #FFFFFF;
+	padding: 0.5rem;
 }
 
 /* content start */
