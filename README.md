@@ -1,2 +1,2 @@
 # LPL
- LPL website for Thinkwave 2.0 competition
+ LPL website for Parralax competition
