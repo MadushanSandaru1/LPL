@@ -92,7 +92,7 @@ body{
 
 	 display: flex;
 	 justify-content: space-around;
-	 align-items: center;
+	 //align-items: center;
 	 
 }
 
@@ -102,7 +102,7 @@ body{
 	font-family: 'Audiowide';
 }
 
-.upcoming  .title, .live  .title{
+.upcoming  .title div, .live  .title div{
 	color: #FFF;
 	font-size: 28px;
 	font-family: 'Audiowide';
@@ -111,19 +111,36 @@ body{
 	width: 260px;
 	padding: 7px;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
-.upcoming table{
-	margin-top: 7px;
-	width: 280px;
+.upcoming table, .live table{
+	margin-top: 120px;
+	margin-bottom: 100px;
+	width: 270px;
 	color: #FFF;
+	word-wrap: break-word;
+	font-family: 'Lemon';
 }
 
-.upcoming table .vs{
+.upcoming table .vs, .live table .vs{
 	width: 50px;
-
 	font-size: 26px;
+	font-family: 'Lemon';
 }
+
+
+.upcoming .time-desc{
+	margin-top: 20px;
+	font-family: 'Scope One';
+}
+
+.live .score-desc{
+	margin-top: 20px;
+	font-family: 'Scope One';
+	color: #F8ED17;
+}
+
 /*body top end */
 
 
