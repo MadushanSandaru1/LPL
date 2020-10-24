@@ -89,9 +89,19 @@ body{
 	 position: relative;
 	 margin-top: -75px;
 	 //margin-left: -5px;
+
+	 display: flex;
+	 justify-content: space-around;
+	 align-items: center;
 	 
 }
 
+
+.upcoming  .title, .live  .title{
+	color: #FFF;
+	font-size: 28px;
+	font-family: 'Audiowide';
+}
 
 /*body top end */
 
@@ -102,9 +112,9 @@ body{
 	color: #FFF;
 	font-size: 24px;
 	font-family: 'Scope One';
-	//padding-top: 30px;
-	//padding-left: 30px;
-	//padding-right: 30px;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 /*intro end*/
