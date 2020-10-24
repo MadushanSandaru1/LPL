@@ -60,6 +60,14 @@ body{
 	transition: transform 0.3s;
 }
 
+
+/*Active link*/
+
+.nav-body .active a{
+	color: #FFF;
+	border: 1px solid #F8ED17;
+}
+
 /* Navigation bar end */
 
 
