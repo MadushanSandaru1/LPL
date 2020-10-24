@@ -116,7 +116,6 @@ body{
 
 .upcoming table, .live table{
 	margin-top: 120px;
-	margin-bottom: 100px;
 	width: 270px;
 	color: #FFF;
 	word-wrap: break-word;
@@ -174,6 +173,30 @@ body{
 }
 
 /* content start */
+
+
+/* about start */
+.about-container-tbl{
+	margin-top: 120px;
+}
+
+.about-container-tbl .about-title{
+	color: #FFF;
+	font-size: 26px;
+	font-family: 'Audiowide';
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+/*
+.about-container-tbl .td_border{
+	border-right: 1px solid #FFF;
+}
+
+*/
+/* about end*/
+
 
 /* footer bar start */
 
