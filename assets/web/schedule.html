@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Scope One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&display=swap" rel="stylesheet">
 
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,17 +39,51 @@
     </div>
 
     <div class="content">
+        <div class="filter-div">
+            <div>
+                <label>Team: </label>
+                <select>
+                    <option>All</option>
+                    <option>Team 1</option>
+                    <option>Team 2</option>
+                </select>
+
+                <label>Date: </label>
+                <select>
+                    <option>All</option>
+                    <option>20 October 2020</option>
+                    <option>21 October 2020</option>
+                </select>
+            </div>
+            <p>* All timings as per local</p>
+        </div>
+
         <div class="item-div">
-            <table border="1">
+            <table>
                 <tr>
-                    <td rowspan="2"></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td rowspan="2"></td>
+                    <td rowspan="2" class="team-logo left-align"><img src="../image/team_logo/team1.png"></td>
+                    <td class="left-align">Team name</td>
+                    <td class="center-align">Vs</td>
+                    <td class="right-align">Team name</td>
+                    <td rowspan="2" class="team-logo right-align"><img src="../image/team_logo/team2.png"></td>
                 </tr>
                 <tr>
-                    <td colspan="3"></td>
+                    <td colspan="3" class="bottom-align">Mon, 20 October | 10:00 PM<br><small>@Place</small></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="item-div">
+            <table>
+                <tr>
+                    <td rowspan="2" class="team-logo left-align"><img src="../image/team_logo/team1.png"></td>
+                    <td class="left-align">Team name</td>
+                    <td class="center-align">Vs</td>
+                    <td class="right-align">Team name</td>
+                    <td rowspan="2" class="team-logo right-align"><img src="../image/team_logo/team2.png"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="bottom-align">Mon, 20 October | 10:00 PM<br><small>@Place</small></td>
                 </tr>
             </table>
         </div>

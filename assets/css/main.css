@@ -139,6 +139,29 @@ body{
 	margin-top: 20px;
 	font-family: 'Scope One';
 	color: #F8ED17;
+<<<<<<< Updated upstream
+=======
+}
+
+.heading-btn {
+	/*position: absolute;*/
+	left: 2rem;
+	bottom: 2rem;
+	color: #1C1C28;
+	background: #F8ED17;
+	border: 1px solid #F8ED17;
+	border-radius: 0.7rem;
+	padding: 0.8rem 3rem;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: 'Audiowide';
+}
+
+.heading-btn:hover {
+	color: #F8ED17;
+	background: none;
+	border: 1px solid #F8ED17;
+>>>>>>> Stashed changes
 }
 
 /*body top end */
@@ -162,15 +185,79 @@ body{
 	padding: 1rem 8rem 1rem 8rem;
 }
 
-.item-div {
+.filter-div {
+	color: #FFFFFF;
+	font-family: Stoke;
+	font-size: 1.2rem;
+	margin: 2rem 0 3rem 0;
+}
+
+.filter-div select {
+	background: #28293D;
+	border: none;
+	font-size: 1rem;
+	padding: 0.3rem 1rem 0.3rem 0.3rem;
+	color: #F8ED17;
+}
+
+.won-div-left {
+	background-image: linear-gradient(to right, rgba(248, 237, 23, 0.5), #28293D, #28293D);
 	padding: 1rem;
+	border-radius: 2rem;
+}
+
+.won-div-right {
+	background-image: linear-gradient(to left, rgba(248, 237, 23, 0.5), #28293D, #28293D);
+	padding: 1rem;
+	border-radius: 2rem;
+}
+
+.item-div {
 	background: #28293D;
 	border-radius: 2rem;
+	margin-top: 2rem;
 }
 
 .item-div table {
 	width: 100%;
 	height: 100px;
+}
+
+.team-logo {
+	width: 10rem;
+}
+
+.team-logo img {
+	width: 10rem;
+}
+
+.left-align {
+	text-align: left;
+	color: #FFFFFF;
+	font-family: Stoke;
+	font-size: 1.2rem;
+}
+
+.center-align {
+	text-align: center;
+	color: #F8ED17;
+	font-family: Stoke;
+	font-size: 2rem;
+}
+
+.right-align {
+	text-align: right;
+	color: #FFFFFF;
+	font-family: Stoke;
+	font-size: 1.3rem;
+}
+
+.bottom-align {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Stoke;
+	font-size: 1.4rem;
+	border-top: 3px solid #FFFFFF;
 }
 
 /* content start */
