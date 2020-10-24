@@ -1,7 +1,7 @@
 /* main.css author team semicolon */
 
 body{
-	background: #000;
+	background: #1C1C28;
 }
 
 /* Navigation bar start */
@@ -47,5 +47,40 @@ body{
 	
 }
 
+<<<<<<< Updated upstream
 
 /* Navigation bar end */
+=======
+<<<<<<< HEAD
+/* Navigation bar end */
+
+/* footer bar end */
+
+.footer{
+	background: #28293D;
+	color: #FFF;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer .social-link{
+	text-align: center;
+}
+
+.footer .social-link ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+}
+
+.footer .social-link ul a{
+	color: #FFFFFF;
+	text-decoration: blink;
+}
+=======
+
+/* Navigation bar end */
+>>>>>>> 623f4d1a542e7ac59ced8f0b02aa9c89657a32c9
+>>>>>>> Stashed changes
