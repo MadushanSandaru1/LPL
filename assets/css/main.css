@@ -10,12 +10,12 @@ body{
 	margin: -10px -10px 0px -10px;
 	display: flex;
 	justify-content: space-between;
-	background: #2747BA;
+	background: rgba(39, 71, 186,0.5);
 	color: #FFF;
 }
 
 .nav-logo img{
-
+	margin: 0px 0px 0px 10px;
 }
 
 .nav-body {
