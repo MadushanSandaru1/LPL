@@ -7,6 +7,7 @@ body{
 /* Navigation bar start */
 
 .navigation{
+	margin: -10px -10px 0px -10px;
 	display: flex;
 	justify-content: space-between;
 	background: #2747BA;
@@ -15,6 +16,12 @@ body{
 
 .nav-logo img{
 
+}
+
+.nav-body ul{
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
 }
 
 
