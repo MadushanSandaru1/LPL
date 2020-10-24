@@ -1,15 +1,20 @@
 /* main.css author team semicolon */
 
+body{
+	background: 
+}
 
 /* Navigation bar start */
 
 .navigation{
 	display: flex;
 	justify-content: space-between;
+	background: #2747BA;
+	color: #FFF;
 }
 
 .nav-logo img{
-	
+
 }
 
 
