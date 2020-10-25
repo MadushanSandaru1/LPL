@@ -7,7 +7,6 @@ body{
 /* Navigation bar start */
 
 .navigation{
-	//margin: -10px -7px 0px -7px;
 	margin-top: -10px;
 	display: flex;
 	justify-content: space-between;
@@ -18,6 +17,8 @@ body{
 
 .nav-logo img{
 	margin: 2px 2px 2px 12px;
+	height: 70px;
+	width: 220px;
 }
 
 .nav-body {
@@ -177,7 +178,6 @@ body{
 }
 
 .heading-btn {
-	/*position: absolute;*/
 	left: 2rem;
 	bottom: 2rem;
 	color: #1C1C28;
@@ -448,16 +448,17 @@ body{
 }
 
 .feedback-btn{
-	height: 32px;
-	width:100px;
-	background:rgba(39, 71, 186,0.5);
-	border:1px solid #FFF;
-	border-radius: 7px;
-	color: #FFF;
+	background: #F8ED17;
+	border: 1px solid #F8ED17;
+	border-radius: 0.7px;
+	color: #1C1C28;
+	padding: 0.5rem 2rem;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: 'Audiowide';
 
 	transition: transform 0.3s;
 }
-
 
 .feedback-btn:hover{
 	transform: scale(1.05);
@@ -472,7 +473,6 @@ body{
 ::placeholder{
 	color: #FFF;
 }
-
 
 .social-contacts ul{
 	font-size: 24px;
@@ -504,12 +504,10 @@ body{
 	justify-content: center;     
 	padding-left: 0px;     
 	padding-top: 15px;
-
 }
 
 .footer .social-link ul li{
 	padding: 0rem 0.5rem 0rem 0.5rem;
-
 }
 
 .footer .social-link ul a{
